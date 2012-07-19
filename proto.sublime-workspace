@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			]
 		]
 	},
 	"buffers":
@@ -40,6 +48,24 @@
 	},
 	"file_history":
 	[
+		"/Users/jared/Documents/Dropbox/prototype/list.html",
+		"/Users/jared/Documents/Dropbox/prototype/js/bootstrap-collapse.js",
+		"/Users/jared/Documents/Dropbox/prototype/visual.html",
+		"/Users/jared/Documents/Dropbox/prototype/notifications.html",
+		"/Users/jared/Documents/Dropbox/prototype/less/type.less",
+		"/Users/jared/Documents/Dropbox/prototype/less/variables.less",
+		"/Users/jared/Documents/Dropbox/prototype/less/responsive-navbar.less",
+		"/Users/jared/Documents/Dropbox/prototype/visual-test.html",
+		"/Users/jared/Documents/Dropbox/prototype/mylinks.html",
+		"/Users/jared/Documents/Dropbox/prototype/financial.html",
+		"/Users/jared/Documents/Dropbox/prototype/less/accordion.less",
+		"/Users/jared/Documents/Dropbox/prototype/list3.html",
+		"/Users/jared/Documents/Dropbox/prototype/template.html",
+		"/Users/jared/Documents/Dropbox/prototype/css/responsive.css",
+		"/Users/jared/Documents/Dropbox/prototype/less/navbar.less",
+		"/Users/jared/Documents/Dropbox/prototype/css/bootstrap.css",
+		"/Users/jared/Documents/Dropbox/prototype/less/responsive.less",
+		"/Users/jared/Documents/Dropbox/prototype/less/bootstrap.less",
 		"/Users/jared/Documents/Dropbox/twbs/docs/assets/css/bootstrap.css",
 		"/Users/jared/Documents/Dropbox/twbs/docs/examples/list.html",
 		"/Users/jared/Documents/Dropbox/twbs/home.html",
@@ -53,7 +79,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -64,6 +90,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/sdb_library/images/1px_transparent.gif",
+			" class=\"dashed\"",
+			"dropd",
+			"page-header",
+			"margin-bottom",
+			"18px",
+			"btn btn-primary span3",
+			"<a class=\"btn btn-primary\" href=\"http://catalyst.uw.edu/\" target=\"_blank\"><i class=\"icon-cog icon-white\"></i> Course Website</a> <a class=\"btn btn-primary\" href=\"http://sdb.admin.washington.edu/textbooks/query.asp?qtr=Autumn&sln1=14795&sln2=14796&sln3=12008\" target=\"_blank\"><i class=\"icon-book icon-white\"></i> Textbooks</a>",
+			"</li>",
+			"<li>",
+			"<td>",
+			"nav-collapse",
+			"nav-collap",
+			"nav-collapse",
+			"nav",
+			"nav ",
+			"nav-coll",
+			".p",
+			"pull",
+			"pull-right",
+			"data-toggle=\"collapse\"",
+			"<li>",
 			"margin-right: auto",
 			"center-block",
 			"center",
@@ -75,6 +123,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"1px_transparent.gif",
+			"",
+			"btn btn-primary",
+			"<p>\n                    <a class=\"btn btn-primary span3\" href=\"http://catalyst.uw.edu/\" target=\"_blank\">\n                      <i class=\"icon-cog icon-white\"></i> Course Website</a>\n                    </p>\n                    <p>\n                    <a class=\"btn btn-primary span3\" href=\"http://sdb.admin.washington.edu/textbooks/query.asp?qtr=Autumn&sln1=14795&sln2=14796&sln3=12008\" target=\"_blank\"><i class=\"icon-book icon-white\"></i> Textbooks</a>\n                  </p>",
+			"</a></li>",
+			"<li><a href=\"#\">",
+			"<td class=\"dashed\">",
+			"search-collapse",
+			"<li class=\"\">",
 			""
 		],
 		"reverse": false,
