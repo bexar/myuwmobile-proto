@@ -135,14 +135,27 @@
   .container-fluid {
     padding: 0;
   }
+  .dl-horizontal {
+    /*dt {
+        float: none;
+        clear: none;
+        width: auto;
+        text-align: left;
+      }
+      */
+  
+  }
   .dl-horizontal dt {
-    float: none;
-    clear: none;
-    width: auto;
-    text-align: left;
+    float: left;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 5px;
   }
   .dl-horizontal dd {
-    margin-left: 0;
+    margin-left: 50%;
   }
   .container {
     width: auto;
@@ -624,7 +637,7 @@
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 18px;
+    margin-bottom: 5px;
   }
   .navbar-fixed-bottom {
     margin-top: 18px;
@@ -640,7 +653,8 @@
   .navbar .brand {
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0 0 0 -5px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .nav-collapse {
     clear: both;

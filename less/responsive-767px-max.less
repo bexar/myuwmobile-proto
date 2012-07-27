@@ -90,14 +90,23 @@
   // ----------
   // Reset horizontal dl
   .dl-horizontal {
-    dt {
+    /*dt {
       float: none;
       clear: none;
       width: auto;
       text-align: left;
     }
+    */
+      dt {
+    float: left;
+
+    clear: left;
+    text-align: right;
+    .text-overflow();
+    padding-bottom: 5px;
+  }
     dd {
-      margin-left: 0;
+      margin-left: 50%;
     }
   }
 

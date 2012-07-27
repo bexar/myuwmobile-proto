@@ -15,13 +15,37 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "list.html",
+			"settings":
+			{
+				"buffer_size": 13403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home.html",
+			"settings":
+			{
+				"buffer_size": 5227,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 147.0,
+		"height": 327.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -31,7 +55,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -48,6 +72,7 @@
 	},
 	"file_history":
 	[
+		"/Users/jared/Library/Application Support/Sublime Text 2/Packages/User/SVN.sublime-settings",
 		"/Users/jared/Documents/Dropbox/prototype/list.html",
 		"/Users/jared/Documents/Dropbox/prototype/js/bootstrap-collapse.js",
 		"/Users/jared/Documents/Dropbox/prototype/visual.html",
@@ -143,8 +168,65 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "list.html",
+					"settings":
+					{
+						"buffer_size": 13403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "home.html",
+					"settings":
+					{
+						"buffer_size": 5227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2565,
+								2565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
