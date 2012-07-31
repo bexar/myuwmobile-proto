@@ -152,10 +152,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding-bottom: 5px;
   }
   .dl-horizontal dd {
-    margin-left: 50%;
+    margin-left: 100px;
   }
   .container {
     width: auto;

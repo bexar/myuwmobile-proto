@@ -31,7 +31,7 @@
   </head>
  
   <body>
- 
+ 	<!-- navbar start -->
 	<div class="navbar navbar-fixed-top">
 	  <div class="navbar-inner">
 		<div class="container">
@@ -48,7 +48,9 @@
 		  <a class="brand" href="list.html">MyUW</a>
  
 		  <div class="nav-collapse collapse"> <!-- start nav menu -->
-		  <div style="background-color:#888;padding:5px;margin-bottom:10px;color:#000;-webkit-border-radius:10px 10px 10px 10px;"><strong>Welcome, Sarah Windsfield</strong></div>
+		  <div style="background-color:#888;padding:5px;margin-bottom:10px;color:#000;-webkit-border-radius:10px 10px 10px 10px;">
+		  	<strong>Welcome, Sarah Windsfield</strong>
+		  </div>
 			<ul class="nav"	 style="border-bottom:#888 solid 1px;">
 			  <li class="active"><a href="list.html">Schedule</a></li>
 			  <li class=""><a href="notifications.html">Notifications</a></li>
@@ -77,32 +79,38 @@
 		  <button class="btn" href="#">Search</button>
 		 
 		</div>
-		  <!--/.nav-collapse container -->
+		  <!--Nav End -->
  
 		</div>
 	  </div>
 	</div>
- 
-	<div class="container-fluid">
+ 	<!-- Page content -->
+	<div class="container">
  
 	  <div class="page-header">
-		<h2>My Class List
-		</h2>
+		<h2>My Class List</h2>
 	  </div>
-	  <!-- Example row of columns -->
+	  
 	  <div class="row-fluid">
 		<div class="span12">
+		<!-- Start of course list accordion -->
 		  <div class="accordion" id="accordion2">
+		  <!-- group (heading + body) -->
 			<div class="accordion-group">
-			  <div class="accordion-heading">
+			 
+			  <!-- heading -->
+			  <div class="accordion-heading"> 
 				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
 				  COM 238A Modern Communication Theory<i class="icon-chevron-right pull-right"></i>
 				</a>
 			  </div>
-			  <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+			  <!-- /heading -->
+			  <!-- body -->
+			  <div id="collapseOne" class="accordion-body collapse">
 				<div class="accordion-inner">
+				
 				<div class="row well2">
-		  			<table style="width: 100%;">
+		  			<table class="" style="width: 100%;">
 		  			<tr>
 		  				<td>MWF</td><td>9:15 - 10:30AM</td>
 		  				<td><a href="http://uw.edu/maps/?SAV" target="_blank">SAV 230</a></td>
@@ -116,8 +124,7 @@
 		  				<td><a href="http://uw.edu/maps/?OGUL" target="_blank">OGUL 120</a></td>
 		  			</tr>
 		  			</table>
-				
-				</div>
+		  		</div>
  
 					<dl class="dl-horizontal">
 					  <dt>Instructor</dt>
@@ -130,7 +137,10 @@
 					
 				</div>
 			  </div>
+			  <!-- /body -->
 			</div>
+			<!-- /group -->
+			
 			<div class="accordion-group">
 			  <div class="accordion-heading">
 				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
@@ -253,19 +263,22 @@
 				</div>
 			  </div>
 			</div>
+			
 		</div>
+		<!-- end accordion -->
 		 </div>
 	  </div>
+	  
 	  <div class="row">
 			<p>
-	  		<a class="btn" href="#"><i class="icon-book pull-left"></i> Textbook List</a>
+	  		<a class="btn" href="#"><i class="icon-book pull-left"> </i> Textbook List</a>
 			</p>
 			<p>
-	  		<a class="btn" href="#"><i class="icon-calendar pull-left"></i> Final Exam Schedule</a>
+	  		<a class="btn" href="#"><i class="icon-calendar pull-left"> </i> Final Exam Schedule</a>
 	  		</p>
  	  </div>
+ 	  <!-- Footer -->
 	  <hr>
- 
 	  <footer>
 		<p>&copy;University of Washington 2012</p>
 		<p>
@@ -275,8 +288,9 @@
 		  <a href="https://myuw.washington.edu/servlet/main/?0-1.ILinkListener-header-bar_right-logout&f=d&tab=1" target="_blank">Log Out</a> 
 		</p>
 	  </footer>
+	  <!-- /Footer -->
  
-	</div> <!-- /container -->
+	</div> <!-- /page content -->
  
 	<!-- Le javascript
 	================================================== -->
