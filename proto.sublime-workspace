@@ -19,7 +19,7 @@
 			"file": "list.html",
 			"settings":
 			{
-				"buffer_size": 13403,
+				"buffer_size": 10279,
 				"line_ending": "Unix"
 			}
 		},
@@ -176,7 +176,7 @@
 					"file": "list.html",
 					"settings":
 					{
-						"buffer_size": 13403,
+						"buffer_size": 10279,
 						"regions":
 						{
 						},
@@ -191,10 +191,10 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
