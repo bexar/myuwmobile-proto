@@ -1312,7 +1312,9 @@ table {
 }
 .table-meeting td {
   line-height: 16px;
-  padding: 3px 8px;
+  padding: 5px 4px;
+  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 .table-bordered {
   border: 1px solid #dddddd;
