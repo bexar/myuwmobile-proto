@@ -4103,7 +4103,7 @@ a.badge:hover {
 }
 .accordion-heading .accordion-toggle {
   display: block;
-  padding: 8px 15px;
+  padding: 12px 15px;
 }
 .accordion-toggle {
   cursor: pointer;
