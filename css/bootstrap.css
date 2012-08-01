@@ -468,9 +468,11 @@ dd {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin-bottom: 5px;
 }
 .dl-horizontal dd {
   margin-left: 130px;
+  margin-bottom: 5px;
 }
 hr {
   margin: 18px 0;
