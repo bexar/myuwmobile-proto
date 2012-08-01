@@ -1318,6 +1318,9 @@ table {
   border-bottom: 1px solid #eee;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
+.table-meeting tbody:first-child tr:last-child td {
+  border-bottom: 0;
+}
 .table-bordered {
   border: 1px solid #dddddd;
   border-collapse: separate;
