@@ -10,12 +10,37 @@
 // Group == heading + body
 .accordion-group {
   margin-bottom: 2px;
-  border: 1px solid #e5e5e5;
-  .border-radius(4px);
+  /*border-left:5px solid @grayLighter;*/
+  border-top:1px solid @grayLighter;
+  border-bottom: 1px solid @grayLighter;
+  border-right: 0px;
+  
+  h3 {color:@white;}
 }
+
 .accordion-heading {
   border-bottom: 0;
+  border-right:1px solid #e5e5e5;	
+ }
+ 
+.c1 {
+ background-color:@orange;
 }
+.c1Border {
+	border-left:5px solid @orange;
+	border-top:1px solid @orange;
+    border-bottom: 1px solid @orange;
+	}
+
+.c2 {
+ background-color:@green;
+}
+.c2Border {
+	border-left:5px solid @green;
+	border-top:1px solid @green;
+    border-bottom: 1px solid @green;
+}
+
 .accordion-heading .accordion-toggle {
   display: block;
   padding: 12px 15px;
