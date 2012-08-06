@@ -15,35 +15,39 @@
   border-bottom: 1px solid @grayLighter;
   border-right: 0px;
   
-  h3 {color:@white;}
+  h3 {color:@white;text-transform:uppercase;font-weight:normal;}
 }
 
 .accordion-heading {
   border-bottom: 0;
-  border-right:1px solid #e5e5e5;	
+  border-right:1px solid #e5e5e5;
+  
+  a {color:@white;}
+  a:hover {text-decoration: none;}
+  	
  }
  
 .c1 {
- background-color:@orange;
+ background-color:@courseOrange;
 }
 .c1Border {
-	border-left:5px solid @orange;
-	border-top:1px solid @orange;
-    border-bottom: 1px solid @orange;
+	border-left:5px solid @courseOrange;
+	border-top:1px solid @courseOrange;
+    border-bottom: 1px solid @courseOrange;
 	}
 
 .c2 {
- background-color:@green;
+ background-color:@courseGreen;
 }
 .c2Border {
-	border-left:5px solid @green;
-	border-top:1px solid @green;
-    border-bottom: 1px solid @green;
+	border-left:5px solid @courseGreen;
+	border-top:1px solid @courseGreen;
+    border-bottom: 1px solid @courseGreen;
 }
 
 .accordion-heading .accordion-toggle {
   display: block;
-  padding: 12px 15px;
+  padding: 12px 10px;
 }
 
 // General toggle styles
