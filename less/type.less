@@ -20,6 +20,10 @@ p {
   line-height: @baseLineHeight * 1.5;
 }
 
+a, a:hover {
+	font-size: @baseFontSize + 3;
+}
+
 // HEADINGS
 // --------
 
@@ -71,6 +75,11 @@ h6 {
   font-size: 11px;
   color: @grayLight;
   text-transform: uppercase;
+}
+
+.scheduleHeading {
+  font-weight: bold;
+  line-height: @baseLineHeight - 1; // fix jank Helvetica Neue font bug
 }
 
 // Page header
