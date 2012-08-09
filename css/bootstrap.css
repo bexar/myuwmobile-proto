@@ -458,6 +458,9 @@ ul.unstyled li.additional,
 ol.unstyled li.additional {
   line-height: 30px;
 }
+li.inline {
+  display: inline;
+}
 dl {
   margin-bottom: 20px;
 }
