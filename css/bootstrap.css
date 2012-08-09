@@ -1315,11 +1315,11 @@ table {
   padding: 4px 5px;
 }
 .table-meeting {
-  width: 100%;
+  width: 98%;
   border-collapse: separate;
   *border-collapse: collapsed;
   min-height: 20px;
-  margin-bottom: 5px;
+  margin: 5px 1% 5px 1%;
   background-color: #fafaf5;
   border: 1px solid #eee;
   border: 1px solid rgba(0, 0, 0, 0.09);
