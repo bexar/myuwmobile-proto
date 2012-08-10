@@ -1,4 +1,0 @@
-myuwmobile-proto
-================
-
-myuwmobile prototype
