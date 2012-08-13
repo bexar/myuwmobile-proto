@@ -4399,10 +4399,10 @@ a.badge:hover {
 }
 .accordion-group {
   margin-bottom: 2px;
-  /*border-left:5px solid @grayLighter;*/
+  /*border-left:5px solid @grayLighter;
+  border-top:1px solid @grayLighter;
+  border-bottom: 1px solid @grayLighter;*/
 
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
   border-right: 0px;
 }
 .accordion-group h3 {
@@ -4412,7 +4412,8 @@ a.badge:hover {
 }
 .accordion-heading {
   border-bottom: 0;
-  border-right: 1px solid #e5e5e5;
+  /*border-right:1px solid #e5e5e5;*/
+
 }
 .accordion-heading a {
   color: #ffffff;
