@@ -4577,8 +4577,10 @@ a.badge:hover {
 .pull-right {
   float: right;
 }
-.pull-right2 {
+.posmid {
   float: right;
+  position: relative;
+  top: 50%;
 }
 .pull-left {
   float: left;
