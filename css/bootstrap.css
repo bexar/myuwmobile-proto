@@ -4413,6 +4413,9 @@ a.badge:hover {
   color: #ffffff;
   font-size: 1.5em;
 }
+.accordion-heading a:active {
+  text-decoration: none;
+}
 .c1 {
   background-color: #c8a26f;
 }
