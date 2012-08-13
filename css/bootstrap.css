@@ -562,6 +562,11 @@ cite {
 .courseIDtitle {
   padding-right: 10px;
   font-weight: bold;
+  display: block;
+}
+.shortTitle {
+  white-space: nowrap;
+  font-size: .6em;
 }
 code,
 pre {
@@ -4406,10 +4411,7 @@ a.badge:hover {
 }
 .accordion-heading a {
   color: #ffffff;
-  font-size: 18px;
-}
-.accordion-heading a:hover {
-  text-decoration: none;
+  font-size: 1.5em;
 }
 .c1 {
   background-color: #c8a26f;
