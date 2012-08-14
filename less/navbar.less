@@ -21,7 +21,7 @@
   padding-right: 20px;
   #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
   .border-radius(4px);
-  .box-shadow(~"0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1)");
+  .box-shadow(~"0 1px 3px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1)");
 }
 
 // Set width to auto for default container
@@ -215,7 +215,7 @@
   padding: 4px 10px 4px;
   // Vertically center the button given @navbarHeight
   @elementHeight: 28px;
-  margin: ((@navbarHeight - @elementHeight) / 2 - 1) 5px ((@navbarHeight - @elementHeight) / 2);
+  margin: ((@navbarHeight - @elementHeight) / 2 - 5) 5px ((@navbarHeight - @elementHeight) / 2 - 4);
   line-height: @baseLineHeight;
 }
 .navbar .btn-group {
@@ -260,7 +260,7 @@
 .navbar .btn-navbar {
   display: none;
   float: right;
-  padding: 7px 10px;
+  padding: 12px 12px;
   margin-left: 5px;
   margin-right: 5px;
   .buttonBackground(@navbarBackgroundHighlight, @navbarBackground);
