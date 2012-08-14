@@ -1,8 +1,10 @@
 .pull-right {
   float: right;
 }
-.pull-right2 {
+.pull-right-center {
   float: right;
+  position: relative;
+  top: 15px;
 }
 .pull-left {
   float: left;
