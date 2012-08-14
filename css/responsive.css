@@ -228,7 +228,7 @@ body {
 }
 .nav-collapse .nav {
   float: none;
-  margin: 0 0 10px;
+  margin: 5px 0 10px;
 }
 .nav-collapse .nav > li {
   float: none;
