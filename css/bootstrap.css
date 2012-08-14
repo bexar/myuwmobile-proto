@@ -4445,7 +4445,7 @@ a.badge:hover {
 }
 .accordion-heading .accordion-toggle {
   display: block;
-  padding: 12px 10px;
+  padding: 5px 10px;
 }
 /*
 .accordion-toggle {
