@@ -3348,6 +3348,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .container {
   width: auto;
+  background: url('../img/myuw.png') no-repeat center top;
 }
 /*.nav-collapse.collapse {
   height: auto;
