@@ -19,7 +19,8 @@
   min-height: @navbarHeight;
   padding-left:  20px;
   padding-right: 20px;
-  #gradient > .vertical(lighten(@navbarBackground,5%), darken(@navbarBackgroundHighlight,3%));
+//  #gradient > .vertical(lighten(@navbarBackground,5%), darken(@navbarBackgroundHighlight,3%));
+  #gradient > .vertical(@uwpurple, @uwpurple);
 
   .border-radius(4px);
   .box-shadow(~"0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1)");
@@ -267,8 +268,8 @@
   padding: 10px 12px;
   margin-left: 5px;
   margin-right: 5px;
-  .buttonBackground(lighten(@uwpurple,15%), lighten(@uwpurple,3%));
-  .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.15), 0px 1px 0 rgba(255,255,255,.125)");
+  .buttonBackground(lighten(@uwpurple,3%), lighten(@uwpurple,15%));
+  .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.1), 0px 1px 0 rgba(255,255,255,.125)");
 }
 .navbar .btn-navbar .icon-bar {
   display: block;
