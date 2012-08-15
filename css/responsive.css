@@ -202,6 +202,7 @@ body {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
+  padding: 0 10px;
 }
 .navbar-fixed-top {
   margin-bottom: 5px;
