@@ -201,7 +201,12 @@ body {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
+<<<<<<< HEAD
   position: static;
+=======
+  position: fixed;
+  padding: 0 10px;
+>>>>>>> parent of 3e44b69... Revert "fix 10px lr padding on content from static nav"
 }
 .navbar-fixed-top {
   margin-bottom: 5px;
