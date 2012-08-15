@@ -262,10 +262,10 @@ body {
 .nav-collapse .dropdown-menu li + li a {
   margin-bottom: 2px;
 }
-.nav-collapse .nav > li > a:hover,
-.nav-collapse .dropdown-menu a:hover {
-  background-color: #39275b;
-}
+/*.nav-collapse .nav > li > a:hover,
+  .nav-collapse .dropdown-menu a:hover {
+    background-color: @navbarBackground; 
+  }*/
 .nav-collapse.in .btn-group {
   margin-top: 5px;
   padding: 0;
@@ -361,10 +361,10 @@ body {
 .search-collapse .dropdown-menu li + li a {
   margin-bottom: 2px;
 }
-.search-collapse .nav > li > a:hover,
-.search-collapse .dropdown-menu a:hover {
-  background-color: #39275b;
-}
+/*.search-collapse .nav > li > a:hover,
+  .search-collapse .dropdown-menu a:hover {
+    background-color: @navbarBackground;
+  }*/
 .search-collapse.in .btn-group {
   margin-top: 5px;
   padding: 0;

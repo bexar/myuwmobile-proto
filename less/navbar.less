@@ -67,9 +67,9 @@
   // Janky solution for now to account for links outside the .nav
   .navbar-link {
     color: @navbarLinkColor;
-    &:hover {
+    /*&:hover {
       color: @navbarLinkColorHover;
-    }
+    }*/
   }
   // Buttons in navbar
   .btn,
@@ -232,8 +232,8 @@
 }*/
 
 // Active nav items
-.navbar .nav .active > a,
-.navbar .nav .active > a:hover {
+.navbar .nav .active > a/*,
+.navbar .nav .active > a:hover*/ {
   color: @navbarLinkColorActive;
   text-decoration: none;
   #translucent > .background(@uwLighter, .2);
@@ -265,8 +265,8 @@
   padding: 10px 12px;
   margin-left: 5px;
   margin-right: 5px;
-  .buttonBackground(@navbarBackgroundHighlight, @navbarBackground);
-  .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.1), -1px 1px 0 rgba(255,255,255,.075)");
+  .buttonBackground(lighten(@uwpurple,10%), @uwpurple);
+  .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.1), 0px 1px 0 rgba(255,255,255,.075)");
 }
 .navbar .btn-navbar .icon-bar {
   display: block;

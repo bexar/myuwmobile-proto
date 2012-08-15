@@ -3379,9 +3379,10 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .navbar-link {
   color: #999999;
-}
-.navbar .navbar-link:hover {
-  color: #ffffff;
+  /*&:hover {
+      color: @navbarLinkColorHover;
+    }*/
+
 }
 .navbar .btn,
 .navbar .btn-group {
@@ -3535,8 +3536,7 @@ input[type="submit"].btn.btn-mini {
   color: @navbarLinkColorHover;
   text-decoration: none;
 }*/
-.navbar .nav .active > a,
-.navbar .nav .active > a:hover {
+.navbar .nav .active > a {
   color: #ffffff;
   text-decoration: none;
   background-color: rgba(141, 112, 194, 0.2);
@@ -3563,24 +3563,24 @@ input[type="submit"].btn.btn-mini {
   padding: 10px 12px;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: #39275b;
-  background-image: -moz-linear-gradient(top, #39275b, #39275b);
-  background-image: -ms-linear-gradient(top, #39275b, #39275b);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#39275b), to(#39275b));
-  background-image: -webkit-linear-gradient(top, #39275b, #39275b);
-  background-image: -o-linear-gradient(top, #39275b, #39275b);
-  background-image: linear-gradient(top, #39275b, #39275b);
+  background-color: #463070;
+  background-image: -moz-linear-gradient(top, #4f367f, #39275b);
+  background-image: -ms-linear-gradient(top, #4f367f, #39275b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4f367f), to(#39275b));
+  background-image: -webkit-linear-gradient(top, #4f367f, #39275b);
+  background-image: -o-linear-gradient(top, #4f367f, #39275b);
+  background-image: linear-gradient(top, #4f367f, #39275b);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#39275b', endColorstr='#39275b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f367f', endColorstr='#39275b', GradientType=0);
   border-color: #39275b #39275b #171025;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #39275b;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), -1px 1px 0 rgba(255,255,255,.075);
-  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), -1px 1px 0 rgba(255,255,255,.075);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), -1px 1px 0 rgba(255,255,255,.075);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0px 1px 0 rgba(255,255,255,.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0px 1px 0 rgba(255,255,255,.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0px 1px 0 rgba(255,255,255,.075);
 }
 .navbar .btn-navbar:hover,
 .navbar .btn-navbar:active,
