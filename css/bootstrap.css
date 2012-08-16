@@ -4431,6 +4431,21 @@ a.badge:hover {
 .c3 {
   background-color: #6d8db4;
 }
+.c4 {
+  background-color: #c86f6f;
+}
+.c5 {
+  background-color: #998577;
+}
+.c6 {
+  background-color: #a58dce;
+}
+.c7 {
+  background-color: #c8c36f;
+}
+.c8 {
+  background-color: #6fc8b6;
+}
 .c1Border {
   border-left: 5px solid #c8a26f;
   border-top: 1px solid #c8a26f;
@@ -4445,6 +4460,31 @@ a.badge:hover {
   border-left: 5px solid #6d8db4;
   border-top: 1px solid #6d8db4;
   border-bottom: 1px solid #6d8db4;
+}
+.c4Border {
+  border-left: 5px solid #c86f6f;
+  border-top: 1px solid #c86f6f;
+  border-bottom: 1px solid #c86f6f;
+}
+.c5Border {
+  border-left: 5px solid #998577;
+  border-top: 1px solid #998577;
+  border-bottom: 1px solid #998577;
+}
+.c6Border {
+  border-left: 5px solid #a58dce;
+  border-top: 1px solid #a58dce;
+  border-bottom: 1px solid #a58dce;
+}
+.c7Border {
+  border-left: 5px solid #c8c36f;
+  border-top: 1px solid #c8c36f;
+  border-bottom: 1px solid #c8c36f;
+}
+.c8Border {
+  border-left: 5px solid #6fc8b6;
+  border-top: 1px solid #6fc8b6;
+  border-bottom: 1px solid #6fc8b6;
 }
 .accordion-heading .accordion-toggle {
   display: block;
