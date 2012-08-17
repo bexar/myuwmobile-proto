@@ -2514,6 +2514,10 @@ button.close {
 .btn:first-child {
   *margin-left: 0;
 }
+.btn-visual {
+  margin-top: 5px;
+  font-weight: normal;
+}
 /*
 .btn:hover {
   color: @grayDark;
