@@ -425,13 +425,16 @@ h6 {
 }
 .page-header {
   padding-bottom: 5px;
-  margin: 5px 0;
+  margin: 15px 0;
 }
 .page-header h1 {
   line-height: 1;
 }
 .page-header h2 {
   font-size: 20px;
+  padding-left: 5px;
+  border-left: 5px solid #ffc40d;
+  line-height: 31px;
 }
 .page-header h2 small {
   font-size: 18px;
@@ -569,6 +572,7 @@ cite {
 .courseIDtitle {
   padding-right: 10px;
   font-weight: bold;
+  line-height: .9;
   display: block;
 }
 .shortTitle {
@@ -2521,7 +2525,6 @@ button.close {
   *margin-left: 0;
 }
 .btn-visual {
-  margin-top: 5px;
   font-weight: normal;
 }
 /*
