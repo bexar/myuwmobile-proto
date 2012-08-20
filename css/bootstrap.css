@@ -136,7 +136,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #3c3c3c;
   background-color: #f8f7f0;
 }
 a {
@@ -433,8 +433,8 @@ h6 {
 .page-header h2 {
   font-size: 20px;
   padding-left: 5px;
-  border-left: 5px solid #ffc40d;
-  line-height: 31px;
+  border-left: 5px solid #d7a900;
+  line-height: 26px;
 }
 .page-header h2 small {
   font-size: 18px;
@@ -584,7 +584,7 @@ pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 13px;
-  color: #333333;
+  color: #3c3c3c;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -640,7 +640,7 @@ legend {
   margin-bottom: 30px;
   font-size: 21px;
   line-height: 40px;
-  color: #333333;
+  color: #3c3c3c;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -2333,7 +2333,7 @@ ul.icons li .icon-large:before {
   clear: both;
   font-weight: normal;
   line-height: 20px;
-  color: #333333;
+  color: #3c3c3c;
   white-space: nowrap;
 }
 .dropdown-menu li > a:hover,
@@ -2478,7 +2478,7 @@ button.close {
   font-size: 14px;
   line-height: 20px;
   *line-height: 20px;
-  color: #333333;
+  color: #3c3c3c;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
@@ -3213,8 +3213,8 @@ input[type="submit"].btn.btn-mini {
 }*/
 .nav-tabs .active .dropdown-toggle .caret,
 .nav-pills .active .dropdown-toggle .caret {
-  border-top-color: #333333;
-  border-bottom-color: #333333;
+  border-top-color: #3c3c3c;
+  border-bottom-color: #3c3c3c;
 }
 /*.nav > .dropdown.active > a:hover {
   color: @black;
@@ -3475,7 +3475,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query:focus,
 .navbar-search .search-query.focused {
   padding: 5px 10px;
-  color: #333333;
+  color: #3c3c3c;
   text-shadow: 0 1px 0 #ffffff;
   background-color: #ffffff;
   border: 0;
@@ -3720,7 +3720,7 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
 }
 .breadcrumb .active a {
-  color: #333333;
+  color: #3c3c3c;
 }
 .pagination {
   height: 40px;
@@ -4214,11 +4214,11 @@ a.badge:hover {
 }
 .label-inverse,
 .badge-inverse {
-  background-color: #333333;
+  background-color: #3c3c3c;
 }
 .label-inverse[href],
 .badge-inverse[href] {
-  background-color: #1a1a1a;
+  background-color: #232323;
 }
 @-webkit-keyframes progress-bar-stripes {
   from {
@@ -4601,7 +4601,7 @@ a.badge:hover {
   right: 0;
   bottom: 0;
   padding: 10px 15px 5px;
-  background: #333333;
+  background: #3c3c3c;
   background: rgba(0, 0, 0, 0.75);
 }
 .carousel-caption h4,
