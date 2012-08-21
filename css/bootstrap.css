@@ -2526,7 +2526,11 @@ button.close {
   *margin-left: 0;
 }
 .btn-visual {
+  margin-top: -8px;
   font-weight: normal;
+  height: 2em;
+  padding-top: .75em;
+  padding-bottom: 2px;
 }
 /*
 .btn:hover {
