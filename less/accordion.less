@@ -13,7 +13,7 @@
   /*border-left:5px solid @grayLighter;
   border-top:1px solid @grayLighter;
   border-bottom: 1px solid @grayLighter;*/
-  border-right: 0px;
+  //border-right: 0px;
   
   h3 {
     color:@white;
@@ -28,7 +28,8 @@
   /*border-right:1px solid #e5e5e5;*/
   
   a {
-    color:@white;
+    //color:@white;
+    color:rgba(0,0,0,.66);
     font-size: 1.5em;
   }
 //  a:hover {text-decoration: none;}
@@ -39,15 +40,18 @@
 
 
 .courseBorder (@color) {
-  border-left:5px solid @color;
-  border-top:1px solid @color;
-  border-bottom: 5px solid @color;
+  border-left:15px solid @color;
+
+/*  border-top:1px solid @color;
+  border-bottom: 5px solid @color;*/
 }
 
-.c1 {
- background-color:@courseOrange;
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8 {
+ /*background-color:@courseOrange;*/
+ #gradient > .vertical(lighten(@grayLight, 30%), lighten(@grayLight,20%));
+
 }
-.c2 {
+/*.c2 {
  background-color:@courseGreen;
 }
 .c3{
@@ -67,7 +71,7 @@
 }
 .c8{
   background-color: @courseTeal;
-}
+}*/
 
 .c1Border {
   .courseBorder(@courseOrange);
@@ -102,7 +106,7 @@
 
 .accordion-heading .accordion-toggle {
   display: block;
-  padding: 5px 10px;
+  padding: 5px 8px;
 }
 
 // General toggle styles
