@@ -571,12 +571,12 @@ cite {
 }
 .courseIDtitle {
   padding-right: 10px;
-  font-weight: bold;
   line-height: .9;
   display: block;
   text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 1px 1px rgba(255, 255, 255, 0.2);
 }
 .shortTitle {
+  margin-top: 3px;
   white-space: nowrap;
   font-size: .6em;
 }
@@ -4427,8 +4427,10 @@ a.badge:hover {
 }
 .accordion-group h3 {
   color: #ffffff;
+  padding-top: 3px;
   text-transform: uppercase;
   font-weight: normal;
+  line-height: 1.1em;
 }
 .accordion-heading {
   border-bottom: 0;
@@ -4505,7 +4507,7 @@ a.badge:hover {
 }
 .accordion-heading .accordion-toggle {
   display: block;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 /*
 .accordion-toggle {
