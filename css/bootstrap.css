@@ -4468,6 +4468,126 @@ a.badge:hover {
 .c8Border {
   border-top: 1px solid #bfbfbf;
 }
+.c1Border .c1,
+.c2Border .c1,
+.c3Border .c1,
+.c4Border .c1,
+.c5Border .c1,
+.c6Border .c1,
+.c7Border .c1,
+.c8Border .c1 {
+  background-color: #c8a26f;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c2,
+.c2Border .c2,
+.c3Border .c2,
+.c4Border .c2,
+.c5Border .c2,
+.c6Border .c2,
+.c7Border .c2,
+.c8Border .c2 {
+  background-color: #84b782;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c3,
+.c2Border .c3,
+.c3Border .c3,
+.c4Border .c3,
+.c5Border .c3,
+.c6Border .c3,
+.c7Border .c3,
+.c8Border .c3 {
+  background-color: #6d8db4;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c4,
+.c2Border .c4,
+.c3Border .c4,
+.c4Border .c4,
+.c5Border .c4,
+.c6Border .c4,
+.c7Border .c4,
+.c8Border .c4 {
+  background-color: #c86f6f;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c5,
+.c2Border .c5,
+.c3Border .c5,
+.c4Border .c5,
+.c5Border .c5,
+.c6Border .c5,
+.c7Border .c5,
+.c8Border .c5 {
+  background-color: #998577;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c6,
+.c2Border .c6,
+.c3Border .c6,
+.c4Border .c6,
+.c5Border .c6,
+.c6Border .c6,
+.c7Border .c6,
+.c8Border .c6 {
+  background-color: #a58dce;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c7,
+.c2Border .c7,
+.c3Border .c7,
+.c4Border .c7,
+.c5Border .c7,
+.c6Border .c7,
+.c7Border .c7,
+.c8Border .c7 {
+  background-color: #c8c36f;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+.c1Border .c8,
+.c2Border .c8,
+.c3Border .c8,
+.c4Border .c8,
+.c5Border .c8,
+.c6Border .c8,
+.c7Border .c8,
+.c8Border .c8 {
+  background-color: #6fc8b6;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  margin: 8px 8px 0 0;
+}
 /*
 .c2Border {
   .courseBorder(@courseGreen);
