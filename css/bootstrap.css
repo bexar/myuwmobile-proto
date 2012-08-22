@@ -2346,7 +2346,7 @@ ul.icons li .icon-large:before {
 .open {
   *z-index: 1000;
 }
-.open  > .dropdown-menu {
+.open > .dropdown-menu {
   display: block;
 }
 .pull-right > .dropdown-menu {
@@ -4480,17 +4480,10 @@ a.badge:hover {
 .c6Border .c1,
 .c7Border .c1,
 .c8Border .c1 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #c8a26f;
 }
 .c1Border .c2,
@@ -4501,17 +4494,10 @@ a.badge:hover {
 .c6Border .c2,
 .c7Border .c2,
 .c8Border .c2 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #84b782;
 }
 .c1Border .c3,
@@ -4522,17 +4508,10 @@ a.badge:hover {
 .c6Border .c3,
 .c7Border .c3,
 .c8Border .c3 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #6d8db4;
 }
 .c1Border .c4,
@@ -4543,17 +4522,10 @@ a.badge:hover {
 .c6Border .c4,
 .c7Border .c4,
 .c8Border .c4 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #c86f6f;
 }
 .c1Border .c5,
@@ -4564,17 +4536,10 @@ a.badge:hover {
 .c6Border .c5,
 .c7Border .c5,
 .c8Border .c5 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #998577;
 }
 .c1Border .c6,
@@ -4585,17 +4550,10 @@ a.badge:hover {
 .c6Border .c6,
 .c7Border .c6,
 .c8Border .c6 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #a58dce;
 }
 .c1Border .c7,
@@ -4606,17 +4564,10 @@ a.badge:hover {
 .c6Border .c7,
 .c7Border .c7,
 .c8Border .c7 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #c8c36f;
 }
 .c1Border .c8,
@@ -4627,17 +4578,10 @@ a.badge:hover {
 .c6Border .c8,
 .c7Border .c8,
 .c8Border .c8 {
-  background-color: #dbdbdb;
-  background-image: -moz-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#cccccc));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: -o-linear-gradient(top, #e5e5e5, #cccccc);
-  background-image: linear-gradient(top, #e5e5e5, #cccccc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#cccccc', GradientType=0);
-  border-color: #cccccc #cccccc #a6a6a6;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  background-color: #cccccc;
+  -webkit-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  -moz-box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
+  box-shadow: 0 1px 1px .5px rgba(0,0,0,.2), inset 0 -1px 0 rgba(255,255,255,.2);
   border-left: 15px solid #6fc8b6;
 }
 /*
