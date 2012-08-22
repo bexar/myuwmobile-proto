@@ -4467,9 +4467,6 @@ a.badge:hover {
 .c6Border,
 .c7Border,
 .c8Border {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .30);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .30);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .30);
   margin-bottom: 3px;
 }
 .c1Border .c1,
@@ -4480,10 +4477,7 @@ a.badge:hover {
 .c6Border .c1,
 .c7Border .c1,
 .c8Border .c1 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #c8a26f;
 }
 .c1Border .c2,
@@ -4494,10 +4488,7 @@ a.badge:hover {
 .c6Border .c2,
 .c7Border .c2,
 .c8Border .c2 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #84b782;
 }
 .c1Border .c3,
@@ -4508,10 +4499,7 @@ a.badge:hover {
 .c6Border .c3,
 .c7Border .c3,
 .c8Border .c3 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #6d8db4;
 }
 .c1Border .c4,
@@ -4522,10 +4510,7 @@ a.badge:hover {
 .c6Border .c4,
 .c7Border .c4,
 .c8Border .c4 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #c86f6f;
 }
 .c1Border .c5,
@@ -4536,10 +4521,7 @@ a.badge:hover {
 .c6Border .c5,
 .c7Border .c5,
 .c8Border .c5 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #998577;
 }
 .c1Border .c6,
@@ -4550,10 +4532,7 @@ a.badge:hover {
 .c6Border .c6,
 .c7Border .c6,
 .c8Border .c6 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #a58dce;
 }
 .c1Border .c7,
@@ -4564,10 +4543,7 @@ a.badge:hover {
 .c6Border .c7,
 .c7Border .c7,
 .c8Border .c7 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #c8c36f;
 }
 .c1Border .c8,
@@ -4578,10 +4554,7 @@ a.badge:hover {
 .c6Border .c8,
 .c7Border .c8,
 .c8Border .c8 {
-  background-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  -moz-box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
-  box-shadow: inset 0 1px 0px rgba(255,255,255,.3), 0 2px 1px .5px rgba(0,0,0,.15);
+  background-color: #ebebeb;
   border-left: 15px solid #6fc8b6;
 }
 /*
