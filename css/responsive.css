@@ -333,26 +333,31 @@
     padding-right: 10px;
   }
 }
+/*
 @media (min-width: 980px) {
+
+  // Required to make the collapsing navbar work on regular desktops
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
-}
-/*
+
+}*/
 .navbar-fixed-top {
   margin-bottom: 5px;
 }
-
 .navbar .brand {
-   margin-left: 5px;
-   margin-right: auto;
-   background: url('../img/myuw.png') no-repeat;
-  }
-
+  margin-left: 5px;
+  margin-right: auto;
+  background: url('../img/myuw.png') no-repeat;
+}
 .nav-collapse .nav {
-    margin: 5px 0 (@baseLineHeight / 2);
-}*/
+  margin: 5px 0 10px;
+}
+.nav-collapse .nav > li > a,
+.nav-collapse .dropdown-menu a {
+  padding: 6px 15px;
+}
 @media (max-width: 767px) {
   body {
     padding-left: 10px;

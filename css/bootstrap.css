@@ -5212,7 +5212,7 @@ a {
   line-height: 1;
 }
 .page-header h2 {
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 5px;
   border-left: 5px solid #d7a900;
   line-height: 26px;
@@ -5235,6 +5235,7 @@ li.inline {
 }
 .courseIDtitle {
   padding-right: 10px;
+  font-size: .8em;
   line-height: .9;
   display: block;
   text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 1px 1px rgba(255, 255, 255, 0.2);
