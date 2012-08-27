@@ -1,6 +1,11 @@
+//
+// Responsive: Navbar
+// --------------------------------------------------
+
+
 // TABLETS AND BELOW
 // -----------------
-
+@media (max-width: @navbarCollapseWidth) {
 
   // UNFIX THE TOPBAR
   // ----------------
@@ -8,14 +13,13 @@
   body {
     padding-top: 0;
   }
-  // Unfix the navbar
+  // Unfix the navbars
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     position: static;
   }
   .navbar-fixed-top {
-  //  margin-bottom: @baseLineHeight;
-  margin-bottom: 5px;
+    margin-bottom: @baseLineHeight;
   }
   .navbar-fixed-bottom {
     margin-top: @baseLineHeight;
@@ -32,10 +36,7 @@
   .navbar .brand {
     padding-left: 10px;
     padding-right: 10px;
-   // margin: 0 0 0 -5px;
-   margin-left: 5px;
-   margin-right: auto;
-   background: url('../img/myuw.png') no-repeat;
+    margin: 0 0 0 -5px;
   }
 
   // COLLAPSIBLE NAVBAR
@@ -47,7 +48,7 @@
   // Block-level the nav
   .nav-collapse .nav {
     float: none;
-    margin: 5px 0 (@baseLineHeight / 2);
+    margin: 0 0 (@baseLineHeight / 2);
   }
   .nav-collapse .nav > li {
     float: none;
@@ -65,7 +66,7 @@
   // Nav and dropdown links in navbar
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
-    padding: 6px 15px;
+    padding: 9px 15px;
     font-weight: bold;
     color: @navbarLinkColor;
     .border-radius(3px);
@@ -79,10 +80,14 @@
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 2px;
   }
-  /*.nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:hover,
   .nav-collapse .dropdown-menu a:hover {
-    background-color: @navbarBackground; 
-  }*/
+    background-color: @navbarBackground;
+  }
+  .navbar-inverse .nav-collapse .nav > li > a:hover,
+  .navbar-inverse .nav-collapse .dropdown-menu a:hover {
+    background-color: @navbarInverseBackground;
+  }
   // Buttons in the navbar
   .nav-collapse.in .btn-group {
     margin-top: 5px;
@@ -144,113 +149,18 @@
   }
 
 
-  // COLLAPSIBLE SEARCH
-  // ------------------
-  // Nav collapse clears brand
-  .search-collapse {
-    clear: both;
-  }
-  // Block-level the nav
-  .search-collapse .nav {
-    float: none;
-    margin: 0 0 (@baseLineHeight / 2);
-  }
-  .search-collapse .nav > li {
-    float: none;
-  }
-  .search-collapse .nav > li > a {
-    margin-bottom: 2px;
-  }
-  .search-collapse .nav > .divider-vertical {
-    display: none;
-  }
-  .search-collapse .nav .nav-header {
-    color: @navbarText;
-    text-shadow: none;
-  }
-  // Nav and dropdown links in navbar
-  .search-collapse .nav > li > a,
-  .search-collapse .dropdown-menu a {
-    padding: 6px 15px;
-    font-weight: bold;
-    color: @navbarLinkColor;
-    .border-radius(3px);
-  }
-  // Buttons
-  .search-collapse .btn {
-    padding: 4px 10px 4px;
-    font-weight: normal;
-    .border-radius(4px);
-  }
-  .search-collapse .dropdown-menu li + li a {
-    margin-bottom: 2px;
-  }
-  /*.search-collapse .nav > li > a:hover,
-  .search-collapse .dropdown-menu a:hover {
-    background-color: @navbarBackground;
-  }*/
-  // Buttons in the navbar
-  .search-collapse.in .btn-group {
-    margin-top: 5px;
-    padding: 0;
-  }
-  // Dropdowns in the navbar
-  .search-collapse .dropdown-menu {
-    position: static;
-    top: auto;
-    left: auto;
-    float: none;
-    display: block;
-    max-width: none;
-    margin: 0 15px;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    .border-radius(0);
-    .box-shadow(none);
-  }
-  .search-collapse .dropdown-menu:before,
-  .search-collapse .dropdown-menu:after {
-    display: none;
-  }
-  .search-collapse .dropdown-menu .divider {
-    display: none;
-  }
-  // Forms in navbar
-  /*.search-collapse .navbar-form,
-  .search-collapse .navbar-search {
-    float: none;
-    padding: (@baseLineHeight / 2) 15px;
-    margin: (@baseLineHeight / 2) 0;
-    border-top: 1px solid @navbarBackground;
-    border-bottom: 1px solid @navbarBackground;
-    .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1)");
-  }*/
-  // Pull right (secondary) nav content
-  .navbar .search-collapse .nav.pull-right {
-    float: none;
-    margin-left: 0;
-  }
-  // Hide everything in the navbar save .brand and toggle button */
-  .search-collapse,
-  .search-collapse.collapse {
-    overflow: hidden;
-    height: 0;
-  }
-
+}
 
 
 // DEFAULT DESKTOP
 // ---------------
 
-// Required to make the collapsing navbar work on regular desktops
-/*@media (min-width: 980px) {
+@media (min-width: 980px) {
+
+  // Required to make the collapsing navbar work on regular desktops
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
-    .search-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
-  }
-}*/
+
+}
