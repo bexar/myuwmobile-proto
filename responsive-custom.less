@@ -1,0 +1,54 @@
+// ======================================================
+// responsive navbar
+// ======================================================
+
+.navbar-fixed-top {
+  margin-bottom: 5px;
+}
+
+.navbar .brand {
+   margin-left: 5px;
+   margin-right: auto;
+   background: url('../img/myuw.png') no-repeat;
+  }
+
+.nav-collapse .nav {
+    margin: 5px 0 (@baseLineHeight / 2);
+}
+// ======================================================
+// responsive 767px-max
+// ======================================================
+
+@media (max-width: 767px) {
+
+  // Padding to set content in a bit
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  // Negative indent the now static "fixed" navbar
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .dl-horizontal {
+    /*dt {
+      float: none;
+      clear: none;
+      width: auto;
+      text-align: left;
+    }
+    */
+      dt {
+    float: left;
+
+    clear: left;
+    text-align: right;
+    .text-overflow();
+  }
+    dd {
+      margin-left: 100px;
+    }
+  }
+}

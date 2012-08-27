@@ -63,31 +63,6 @@ table {
   }
 }
 
-.table-meeting  {
-  width: 98%;
-  border-collapse: separate; // Done so we can round those corners!
-  *border-collapse: collapsed; // IE7 can't round corners anyway
-  min-height: 20px;
-  //margin-bottom: 5px;
-  margin: 5px 1% 5px 1%;
-  background-color: @bodyAccent;
-  border: 1px solid #eee;
-  border: 1px solid rgba(0,0,0,.09);
-  .border-radius(2px);
- .box-shadow(inset 1px 1px 5px rgba(0,0,0,.05));
-  td {
-    line-height: @baseLineHeight - 2;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
- 	  border-bottom: 1px solid rgba(0,0,0,.03);
-  }
-  
-  tbody:first-child tr:last-child td {
-    border-bottom: 0;
-  }
-  
-}
-
 
 // BORDERED VERSION
 // ----------------
@@ -161,14 +136,13 @@ table {
 // HOVER EFFECT
 // ------------
 // Placed here since it has to come after the potential zebra striping
-/*
 .table {
   tbody tr:hover td,
   tbody tr:hover th {
     background-color: @tableBackgroundHover;
   }
 }
-*/
+
 
 // TABLE CELL SIZING
 // -----------------

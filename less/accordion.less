@@ -10,113 +10,24 @@
 // Group == heading + body
 .accordion-group {
   margin-bottom: 2px;
-  /*border-left:5px solid @grayLighter;
-  border-top:1px solid @grayLighter;
-  border-bottom: 1px solid @grayLighter;*/
-  border-right: 0px;
-  
-  h3 {
-    color:@white;
-    padding-top: 3px;
-    text-transform:uppercase;
-    font-weight:normal;
-    line-height: 1.1em;
-
-  }
+  border: 1px solid #e5e5e5;
+  .border-radius(4px);
 }
-
 .accordion-heading {
-
   border-bottom: 0;
-  /*border-right:1px solid #e5e5e5;*/
-  
-  a {
-    color:@white;
-    font-size: 1.5em;
-  }
-//  a:hover {text-decoration: none;}
-  	
- }
- 
-
-
-
-.courseBorder (@color) {
-  border-left:5px solid @color;
-  border-top:1px solid @color;
-  border-bottom: 5px solid @color;
 }
-
-.c1 {
- background-color:@courseOrange;
-}
-.c2 {
- background-color:@courseGreen;
-}
-.c3{
-  background-color: @courseBlue;
-}
-.c4{
-  background-color: @courseRed;
-}
-.c5{
-  background-color: @courseBrown;
-}
-.c6{
-  background-color: @coursePurple;
-}
-.c7{
-  background-color: @courseGold;
-}
-.c8{
-  background-color: @courseTeal;
-}
-
-.c1Border {
-  .courseBorder(@courseOrange);
-}
-.c2Border {
-  .courseBorder(@courseGreen);
-}
-
-.c3Border {
-  .courseBorder(@courseBlue);
-}
-
-.c4Border {
-  .courseBorder(@courseRed);
-}
-
-.c5Border {
-  .courseBorder(@courseBrown);
-}
-
-.c6Border {
-  .courseBorder(@coursePurple);
-}
-
-.c7Border {
-  .courseBorder(@courseGold);
-}
-
-.c8Border {
-  .courseBorder(@courseTeal);
-}
-
 .accordion-heading .accordion-toggle {
   display: block;
-  padding: 8px 10px;
+  padding: 8px 15px;
 }
 
 // General toggle styles
-/*
 .accordion-toggle {
   cursor: pointer;
 }
-*/
+
 // Inner needs the styles because you can't animate properly with any styles on the element
 .accordion-inner {
-  padding: 9px 10px;
+  padding: 9px 15px;
   border-top: 1px solid #e5e5e5;
-  background-color:@myuw;
 }

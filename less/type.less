@@ -20,10 +20,6 @@ p {
   line-height: @baseLineHeight * 1.5;
 }
 
-a {
-	font-size: @baseFontSize + 3;
-}
-
 // HEADINGS
 // --------
 
@@ -77,33 +73,17 @@ h6 {
   text-transform: uppercase;
 }
 
-.scheduleHeading {
-  font-weight: bold;
-  line-height: @baseLineHeight - 1; // fix jank Helvetica Neue font bug
-}
-
 // Page header
 .page-header {
- // padding-bottom: @baseLineHeight - 1;
-  padding-bottom: 5px;
-//  margin: @baseLineHeight 0;
-	margin: 15px 0;
-
-
-	h1 {
-  line-height: 1;
-	}
-
-	 h2 {
-  font-size: 20px;
-  padding-left: 5px;
-  border-left: 5px solid @yellow;
-  line-height: 26px;
-  	small {
-    font-size: 18px;
-  	}
-	}
+  padding-bottom: @baseLineHeight - 1;
+  margin: @baseLineHeight 0;
+  border-bottom: 1px solid @grayLighter;
 }
+.page-header h1 {
+  line-height: 1;
+}
+
+
 
 // LISTS
 // -----
@@ -132,9 +112,7 @@ ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none;
-  	li.additional {line-height: @baseLineHeight * 1.5;}
 }
-	li.inline {display:inline;}
 
 // Description Lists
 dl {
@@ -155,15 +133,13 @@ dd {
 .dl-horizontal {
   dt {
     float: left;
-  	//width: 20px;
+    width: 120px;
     clear: left;
     text-align: right;
     .text-overflow();
-    margin-bottom:5px;
   }
   dd {
     margin-left: 130px;
-    margin-bottom:10px;
   }
 }
 
@@ -253,19 +229,4 @@ small {
 }
 cite {
   font-style: normal;
-}
-
-.courseIDtitle {
-  padding-right:10px;
- // font-weight:bold;
-  line-height: .9;
-  display: block;
-  text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 1px 1px rgba(255,255,255,.2);
-}
-
-.shortTitle {
-  margin-top: 3px;
-  white-space: nowrap;
-  font-size: .6em;
-
 }
