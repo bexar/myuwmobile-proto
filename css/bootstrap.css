@@ -5094,7 +5094,7 @@ a.badge:hover {
   border-bottom: 5px solid #6fc8b6;
 }
 .accordion-heading .accordion-toggle {
-  padding: 8px 10px;
+  padding: 0px 10px;
 }
 .accordion-inner {
   padding: 9px 10px;
@@ -5235,15 +5235,15 @@ li.inline {
 }
 .courseIDtitle {
   padding-right: 10px;
-  font-size: .8em;
-  line-height: .9;
+  font-size: 28px;
+  line-height: .8;
   display: block;
   text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 1px 1px rgba(255, 255, 255, 0.2);
 }
 .shortTitle {
   margin-top: 3px;
   white-space: nowrap;
-  font-size: .6em;
+  font-size: 16px;
 }
 .pull-right-center {
   float: right;
