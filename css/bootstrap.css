@@ -5116,9 +5116,6 @@ a.badge:hover {
   background-image: linear-gradient(to bottom, #39275b, #39275b);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff39275b', endColorstr='#ff39275b', GradientType=0);
-  -webkit-box-shadow: 5px 5px #ff0000;
-  -moz-box-shadow: 5px 5px #ff0000;
-  box-shadow: 5px 5px #ff0000;
 }
 .navbar .btn {
   margin: 1px 5px 2px;
@@ -5170,6 +5167,12 @@ a.badge:hover {
   -webkit-border-radius: 1.5px;
   -moz-border-radius: 1.5px;
   border-radius: 1.5px;
+}
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow: 0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1);
 }
 .table-meeting {
   width: 98%;
