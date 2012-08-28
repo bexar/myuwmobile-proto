@@ -5116,9 +5116,9 @@ a.badge:hover {
   background-image: linear-gradient(to bottom, #39275b, #39275b);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff39275b', endColorstr='#ff39275b', GradientType=0);
-  -webkit-box-shadow: "0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1)";
-  -moz-box-shadow: "0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1)";
-  box-shadow: "0 1px 3px .5px rgba(0,0,0,.5), inset 0 -1px 0 rgba(0,0,0,.1)";
+  -webkit-box-shadow: 5px 5px #ff0000;
+  -moz-box-shadow: 5px 5px #ff0000;
+  box-shadow: 5px 5px #ff0000;
 }
 .navbar .btn {
   margin: 1px 5px 2px;
@@ -5131,7 +5131,7 @@ a.badge:hover {
   box-shadow: inset 0 1px 2px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.15);
 }
 .navbar .btn-navbar {
-  padding: 10px 12px;
+  padding: 12px 12px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #4a3377;
@@ -5250,6 +5250,20 @@ li.inline {
   position: relative;
   top: 15px;
   right: 3px;
+}
+.container-fluid {
+  padding-right: 10px;
+  padding-left: 10px;
+  *zoom: 1;
+}
+.container-fluid:before,
+.container-fluid:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container-fluid:after {
+  clear: both;
 }
 .pull-right {
   float: right;
