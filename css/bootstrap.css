@@ -5127,6 +5127,20 @@ a.badge:hover {
   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.15);
   box-shadow: inset 0 1px 2px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.15);
 }
+.navbar .nav .logout > a {
+  background-color: #4f367e;
+  background-image: -moz-linear-gradient(top, #5b3e91, #3d2a62);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5b3e91), to(#3d2a62));
+  background-image: -webkit-linear-gradient(top, #5b3e91, #3d2a62);
+  background-image: -o-linear-gradient(top, #5b3e91, #3d2a62);
+  background-image: linear-gradient(to bottom, #5b3e91, #3d2a62);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5b3e91', endColorstr='#ff3d2a62', GradientType=0);
+  border: 1px solid #222222;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 2px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 2px rgba(0,0,0,.3);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 2px rgba(0,0,0,.3);
+}
 .navbar .btn-navbar {
   padding: 12px 12px;
   color: #ffffff;
