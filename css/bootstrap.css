@@ -145,7 +145,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #005580;
+  color: #0088cc;
   text-decoration: underline;
 }
 .img-rounded {
@@ -3037,7 +3037,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0;
 }
 .btn-link:hover {
-  color: #005580;
+  color: #0088cc;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3487,8 +3487,8 @@ input[type="submit"].btn.btn-mini {
   margin-top: 6px;
 }
 .nav .dropdown-toggle:hover .caret {
-  border-top-color: #005580;
-  border-bottom-color: #005580;
+  border-top-color: #0088cc;
+  border-bottom-color: #0088cc;
 }
 /* move down carets for tabs */
 .nav-tabs .dropdown-toggle .caret {
@@ -3681,7 +3681,7 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
 }
 .navbar-link:hover {
-  color: #3c3c3c;
+  color: #999999;
 }
 .navbar .divider-vertical {
   height: 40px;
@@ -3831,7 +3831,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-  color: #3c3c3c;
+  color: #999999;
   text-decoration: none;
 }
 .navbar .nav > .active > a,
@@ -5216,6 +5216,9 @@ a.badge:hover {
 }
 a {
   font-size: 17px;
+}
+a:hover {
+  text-decoration: none;
 }
 .scheduleHeading {
   font-weight: bold;
