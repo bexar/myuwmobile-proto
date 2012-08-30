@@ -1,6 +1,8 @@
 // ======================================================
 // responsive navbar
 // ======================================================
+@import "mixins.less";
+@import "variables.less";
 
 .navbar-fixed-top {
   margin-bottom: 5px;
@@ -24,6 +26,13 @@
     }
 .nav-collapse > hr, .nav-collapse .nav > hr {
  margin: 2px 10px;
+ border-bottom: 1px solid  rgba(255,255,255,.2);
+ border-top: 1.5px solid rgba(0,0,0,.4);
+ .border-radius(1px);
+}
+.nav-collapse .nav > hr {
+ margin: 2px 0px;
+ width: 100%;
  border-bottom: 1px solid  rgba(255,255,255,.2);
  border-top: 1.5px solid rgba(0,0,0,.4);
  .border-radius(1px);
@@ -65,4 +74,41 @@
     }
   }
   
+}
+
+@media (max-width: @navbarCollapseWidth) {
+.navbar .nav-collapse .nav.pull-right {
+    float: none;
+    margin-left: 0;
+  }
+  // Hide everything in the navbar save .brand and toggle button */
+  .nav-collapse,
+  .nav-collapse.collapse {
+    overflow: hidden;
+    height: 0;
+  }
+  // Navbar button
+  .navbar .btn-navbar {
+    display: block;
+  }
+
+  // STATIC NAVBAR
+  // -------------
+  .navbar-static .navbar-inner {
+    padding-left:  10px;
+    padding-right: 10px;
+  }
+}
+
+/*
+@media (min-width: 980px) {
+
+  // Required to make the collapsing navbar work on regular desktops
+  .nav-collapse.collapse {
+    height: 0 !important;
+    overflow: hidden !important;
+
+
+  }
+
 }
