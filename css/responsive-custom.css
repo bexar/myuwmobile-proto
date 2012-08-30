@@ -88,21 +88,3 @@
     margin-left: 100px;
   }
 }
-@media (max-width: 979px) {
-  .navbar .nav-collapse .nav.pull-right {
-    float: none;
-    margin-left: 0;
-  }
-  .nav-collapse,
-  .nav-collapse.collapse {
-    overflow: hidden;
-    height: 0;
-  }
-  .navbar .btn-navbar {
-    display: block;
-  }
-  .navbar-static .navbar-inner {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
